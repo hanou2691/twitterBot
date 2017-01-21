@@ -1,18 +1,18 @@
-import tweepy, time, sys
+from tweepy import OAuthHandler
+from tweepy import Stream
 from credentials import *
 from BotStreamListner import *
  
 # Access and authorize Twitter credentials
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-# Redirect user to Twitter to authorize
-redirect_user(auth.get_authorization_url())
-
-# Get access token
-auth.get_access_token("verifier_value")
-
-# Construct the API instance
+auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
 
-botStream = BotStreamListner()
-myStream = tweepy.Stream(auth= api.auth,listener = botStream)
-myStream.filter(track=['#askPY'],async=True)
+streamListener = botStreamListner()
+stream = tweepy.Stream(auth= api.auth,listener = streamListener)
+
+try: 
+    stream.filter(track=['#askYP'],async=True)
+except:
+    print("error")
+    stream.disconnect()

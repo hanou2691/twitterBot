@@ -1,4 +1,4 @@
-CONSUMER_KEY = 'kberpt0Uf1UDcd15PhdfnIojK'#keep the quotes, replace this with your consumer key
-CONSUMER_SECRET = 'dvvFhy0lQi10XZqTksWOQz1f88RrjeDfLoSsu5qhqggg7o2ZXZ'#keep the quotes, replace this with your consumer secret key
-ACCESS_KEY = '	813163906889818116-vOFeVKZzUW8VgFFdYgNuCKBX3JErxBV'#keep the quotes, replace this with your access token
-ACCESS_SECRET = 'VMj1bZNlqnsxoYMh3NDctxHpyUvGMWKkm2To2F4vNdxoL'#keep the quotes, replace this with your access token secret
+CONSUMER_KEY = 'GQ6ic1dL5ChT2AbOChITtfDBF'#keep the quotes, replace this with your consumer key
+CONSUMER_SECRET = 'hNsWlUTesMfKb47u3CFXtx5kDwmVdJmI25bAsPlDUaiMniCQBU'#keep the quotes, replace this with your consumer secret key
+ACCESS_KEY = '813163906889818116-MD0hg5S22f6k4AWRXsHeMz6twxHy5s8'#keep the quotes, replace this with your access token
+ACCESS_SECRET = 'Cv9c8V5KYEQHYdCAFqST1AWDII4KPdT0kJiAAH9eFhr4M'#keep the quotes, replace this with your access token secret
