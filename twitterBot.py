@@ -1,7 +1,7 @@
 from tweepy import OAuthHandler
 from tweepy import Stream
 from credentials import *
-from BotStreamListner import *
+from botStreamListner import *
  
 # Access and authorize Twitter credentials
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)

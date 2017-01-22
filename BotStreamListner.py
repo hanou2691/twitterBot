@@ -1,7 +1,7 @@
 import tweepy
 import json
 
-class BotStreamListner(tweepy.StreamListener):
+class botStreamListner(tweepy.StreamListener):
 	def on_status(self,status):
 		print(status.text)
 	def on_error(Self,status_code):
@@ -10,9 +10,7 @@ class BotStreamListner(tweepy.StreamListener):
 			return False
 	def on_data(self, data):
 		print(data)
-		decoded = json.loads(data)
-		# listen only for tweets that is geo-location enabled
-		
+		decoded = json.loads(data)		
 		try: 
 			tweet = {}
 			tweet['screen_name'] = '@'+decoded['user']['screen_name']
